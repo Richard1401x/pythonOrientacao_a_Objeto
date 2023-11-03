@@ -1,0 +1,17 @@
+from biblioteca import*
+
+g1 = Gato(nome='bolt',cor='Laranja')
+g1.emitirsom()
+g1.comer()
+print('------------------------------------------------------------')
+g2 = Cachorro(nome='Bolinha',cor='Caramelo')
+g2.emitirsom()
+g2.comer()
+print('------------------------------------------------------------')
+g3 = Coelho(nome='Brejinha',cor='Branca')
+g3.emitirsom()
+g3.comer()
+print('------------------------------------------------------------')
+g4 = Vaca(nome='Doralice',cor='Branca e Preta')
+g4.emitirsom()
+g4.comer()
